@@ -1,0 +1,156 @@
+[21-Jan-2016 12:41:38 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/baraco/public_html/bp2ip/application/views/admin/news/index.php on line 47
+[21-Jan-2016 12:41:57 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/baraco/public_html/bp2ip/application/views/admin/news/index.php on line 47
+[12-Mar-2020 06:09:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:09:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:09:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:09:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:10:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:10:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:11:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:11:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:11:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:11:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:11:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Mar-2020 06:11:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/immustud/bp3k-sdmt.immustudio.com/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/immustud/bp3k-sdmt.immustudio.com/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/immustud/bp3k-sdmt.immustudio.com/application/controllers/home.php(5): CI_Controller->__construct()
+#7 /home/immustud/bp3k-sdmt.immustudio.com/system/core/CodeIgniter.php(308): home->__construct()
+#8 /home/immustud/bp3k-sdmt.immustudio.com/index.php(202): in /home/immustud/bp3k-sdmt.immustudio.com/system/database/drivers/mysql/mysql_driver.php on line 91

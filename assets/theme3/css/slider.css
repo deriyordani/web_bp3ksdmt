@@ -1,0 +1,186 @@
+/* main slider */
+ul.bjqs {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: none;
+}
+
+li.bjqs-slide {
+    display: none;
+    position: absolute;
+}
+
+ul.bjqs-controls li a {
+    display: block;
+    padding: 5px 10px;
+    position: absolute;
+    background: #ffffff;
+    color: #fd0100;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+p.bjqs-caption {
+    background: transparent url(../images/captioners.png) repeat;
+    color: #ffffff;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-family: 'UbuntuRegular';
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+    height: 60px;
+    width: 450px;
+}
+
+ol.bjqs-markers {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+ol.bjqs-markers li {
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+ol.bjqs-markers li a {
+    display: block;
+    height: 5px;
+    width: 20px;
+    text-indent: -9999px;
+    background: #ffffff;
+}
+
+ol.bjqs-markers li.active-marker a {
+    background: #004f7f;
+}
+
+
+/* promo slider 1 */
+
+.jcarousel-skin-promotion .jcarousel-container {
+}
+
+.jcarousel-skin-promotion .jcarousel-container-vertical {
+    height: 140px;
+    width: 940px;
+}
+
+.jcarousel-skin-promotion .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-promotion .jcarousel-clip-vertical {
+    height: 140px;
+    width: 940px;
+}
+
+.jcarousel-skin-promotion .jcarousel-item {
+    height: 140px;
+    width: 940px;
+}
+
+.jcarousel-skin-promotion .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-promotion .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-promotion .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 30px;
+    right: -10px;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent url(../images/next.png) no-repeat;
+}
+
+.jcarousel-skin-promotion .jcarousel-next-vertical:hover,
+.jcarousel-skin-promotion .jcarousel-next-vertical:focus {
+    background: transparent url(../images/next1.png) no-repeat;
+}
+
+.jcarousel-skin-promotion .jcarousel-next-vertical:active {
+    background: transparent url(../images/next1.png) no-repeat;
+}
+
+.jcarousel-skin-promotion .jcarousel-next-disabled-vertical,
+.jcarousel-skin-promotion .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-promotion .jcarousel-next-disabled-vertical:focus,
+.jcarousel-skin-promotion .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background: transparent url(../images/next2.png) no-repeat;
+}
+
+.jcarousel-skin-promotion .jcarousel-prev-vertical {
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent url(../images/prev.png) no-repeat;
+}
+
+.jcarousel-skin-promotion .jcarousel-prev-vertical:hover,
+.jcarousel-skin-promotion .jcarousel-prev-vertical:focus {
+    background: transparent url(../images/prev1.png) no-repeat;
+}
+
+.jcarousel-skin-promotion .jcarousel-prev-vertical:active {
+    background: transparent url(../images/prev1.png) no-repeat;
+}
+
+.jcarousel-skin-promotion .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-promotion .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-promotion .jcarousel-prev-disabled-vertical:focus,
+.jcarousel-skin-promotion .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background: transparent url(../images/prev2.png) no-repeat;
+}
+
+
+/* promo slider 2 */
+
+.jcarousel-skin-promotional .jcarousel-container {
+}
+
+.jcarousel-skin-promotional .jcarousel-container-vertical {
+    height: 480px;
+    width: 220px;
+}
+
+.jcarousel-skin-promotional .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-promotional .jcarousel-clip-vertical {
+    height: 480px;
+    width: 220px;
+}
+
+.jcarousel-skin-promotional .jcarousel-item {
+    height: 240px;
+    width: 220px;
+}
+
+.jcarousel-skin-promotional .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-promotional .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
